@@ -8,11 +8,13 @@ Install the python dependencies using:
 
 ### Using the App
 
-Use the command:```python .\get_price_data.py``` to download price data on timeframe/asset specified in ```get_price_data.py```.
+Use the command: ```python .\get_price_data.py``` 
 
-Price data stored in ```data``` directory.
+This downloads price data on timeframes/asset specified in ```get_price_data.py```
 
-Run ```python .\ewma_optimize.py``` or ```python .\median_vol_optimize.py``` to find optimal lookback parameters for each strategy.
+Price data is stored in ```data``` directory
 
-Run ```python .\convert_results.py``` to combine all results into a single .CSV file.
+Run ```python .\ewma_optimize.py``` or ```python .\median_vol_optimize.py``` to find optimal lookback parameters for each strategy
+
+Run ```python .\convert_results.py``` to combine all results into a single .CSV file
 
