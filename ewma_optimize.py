@@ -142,7 +142,7 @@ def optimize(start, end, step, lookback, f):
             # print(len(z), len(close))
         test_period = round((test_period + step), 10)
 
-    results = [f.replace("data/", ""), lookback, highest_return, optimal_period, optimal_buy_hold, optimal_drawdown]
+    results = [f.replace("data/", ""), lookback, str(round(highest_return, 3))+"%", optimal_period, str(round(optimal_buy_hold, 3)) + "%"]
     candlestick_writer.writerow(results)
 
     # return highest_return, optimal_period

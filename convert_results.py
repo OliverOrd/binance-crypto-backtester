@@ -31,6 +31,9 @@ if __name__ == "__main__":
     except:
         pass
 
+    first_row = ["timeframe", "lookback", "highest_return", "expo rate", "optimal_buy_hold"]
+    results.append(first_row)
+
     for filename in os.listdir(directory):
         f = os.path.join(directory, filename)
         if os.path.isfile(f):
