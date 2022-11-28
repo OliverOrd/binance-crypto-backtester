@@ -1,4 +1,5 @@
 # Binance Crypto Trading Strategy Backtester
+![Alt text](screenshot.jpg?raw=true "Optional Title")
 
 This software attempts to find optimal indicator parameters to maximise user returns for two trading strategies. Calculating momentum direction via median or exponential volatility.
 
